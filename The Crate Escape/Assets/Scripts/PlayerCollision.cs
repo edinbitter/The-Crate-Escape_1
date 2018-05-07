@@ -2,7 +2,7 @@
 
 public class PlayerCollision : MonoBehaviour {
 
-	public PlayerMovement movement; 
+	public PlayerLaneMovement movement; 
 
 	void OnCollisionEnter (Collision collisionInfo) 
 	{
